@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Mons: Ubers!</title>
+</head>
+<body>
+    <?php 
+        include "../../navbar.htm";
+    ?>
+    <div id="startingText"></div>
+    <script src="/MCA/projects/PocketMonsSim/PocketUbers.js"></script>
+    <br><br><a href="" class="button-style">Play again</a> or <a href="../index.php" class="button-style">return</a> to pick a different format.
+</body>
+</html>

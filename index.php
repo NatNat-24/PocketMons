@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Mons!</title>
+</head>
+<body>
+    <?php 
+        include "../../navbar.htm";
+    ?>
+    <div id="startingText"></div>
+    <h3>Choose a format to get started!</h3>
+    <a href="PocketLC.php/" class="button-style">Little Cup</a> (level 5, baby mons)<br><br>
+    <a href="PocketOU.php/" class="button-style">OverUsed</a> (level 100, standard mons)<br><br>
+    <a href="PocketUbers.php/" class="button-style">Ubers</a> (level 100, legendary/mythical mons)<br><br>
+</body>
+</html>
