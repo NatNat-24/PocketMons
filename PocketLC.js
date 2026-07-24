@@ -514,7 +514,8 @@ secondaryType == (type[9]) || secondaryType == (type[14])
 )
 ||
 (moveType == (type[16]) && (
-secondaryType == (type[8]) || secondaryType == (type[18])
+secondaryType == (type[8]) || secondaryType == (type[13]) ||
+secondaryType == (type[18])
 )
 )
 ||
