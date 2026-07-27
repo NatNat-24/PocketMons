@@ -827,7 +827,7 @@ function damageCalc(moving, effective) {
       defenseStat = defendingMoncurrentSpD;
       break;
   } 
-  damage = Math.round((0.8 * movePower * attackStat / defenseStat) * (0.85 + Math.floor(Math.random() * 15)/100) * moveEffective * stabBoost);
+  damage = Math.round((0.4 * movePower * attackStat / defenseStat) * (0.85 + Math.floor(Math.random() * 15)/100) * moveEffective * stabBoost);
   if(damage > defendingMonHP) {
     damage = defendingMonHP;
   }
