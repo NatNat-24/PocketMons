@@ -184,14 +184,14 @@ function monPicked() {
 
 function statCalc() {
   
-  playerMonmaxHP = playerMoncurrentHP = Math.floor((2 * playerMonbaseHP[playerChoice] + 31)) + 15;
+  playerMonmaxHP = playerMoncurrentHP = Math.floor((2 * playerMonbaseHP[playerChoice] + 31)/2) + 15;
   playerMoncurrentAtk = (Math.floor((2 * playerMonbaseAtk[playerChoice] + 31)) + 5) * boostMult[playerMonboostAtk] * playerBurnMult;
   playerMoncurrentDef = (Math.floor((2 * playerMonbaseDef[playerChoice] + 31)) + 5) * boostMult[playerMonboostDef];
   playerMoncurrentSpA = (Math.floor((2 * playerMonbaseSpA[playerChoice] + 31)) + 5) * boostMult[playerMonboostSpA];
   playerMoncurrentSpD = (Math.floor((2 * playerMonbaseSpD[playerChoice] + 31)) + 5) * boostMult[playerMonboostSpD];
   playerMoncurrentSpe = (Math.floor((2 * playerMonbaseSpe[playerChoice] + 31)) + 5) * boostMult[playerMonboostSpe] * playerParaMult;
   
-  enemyMonmaxHP = enemyMoncurrentHP = Math.floor((2 * enemyMonbaseHP[enemyChoice] + 31)) + 15;
+  enemyMonmaxHP = enemyMoncurrentHP = Math.floor((2 * enemyMonbaseHP[enemyChoice] + 31)/2) + 15;
   enemyMoncurrentAtk = (Math.floor((2 * enemyMonbaseAtk[enemyChoice] + 31)) + 5) * boostMult[enemyMonboostAtk] * enemyBurnMult;
   enemyMoncurrentDef = (Math.floor((2 * enemyMonbaseDef[enemyChoice] + 31)) + 5) * boostMult[enemyMonboostDef];
   enemyMoncurrentSpA = (Math.floor((2 * enemyMonbaseSpA[enemyChoice] + 31)) + 5) * boostMult[enemyMonboostSpA];
